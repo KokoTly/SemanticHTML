@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(45, 155, 56);
+        }
+        header {
+            background-color: #68c025;
+            color: white;
+            padding: 20px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+        }
+        main {
+            padding: 20px;
+        }
+        article {
+            margin-bottom: 20px;
+        }
+        aside {
+            padding: 10px;
+            border-left: 2px solid #333333;
+            height: 100%;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Semantic Element</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <h2>About Us</h2>
+            <p>HTML was originally created as a markup language to describe documents on the early internet. As the internet grew and was adopted by more people, its needs changed.</p>
+            <p>Where the internet was originally intended for sharing scientific documents, now people wanted to share other things as well. Very quickly, people started wanting to make the web look nicer.</p>
+            <p>A semantic element clearly describes its meaning to both the browser and the developer.</p>
+            <p>HTML5 Semantics refers to the use of specific tags like header, footer, nav, article, section, etc., to provide clearer structure and meaning to web content. This improves accessibility, and SEO, and facilitates better understanding by both humans and machines.</p>
+            <p>As HTML5 is still relatively new, this use of non-semantic elements is still very common on websites today.</p>
+        </article>
+
+        <aside>
+            <h3>Links related to the topic</h3>
+            <ul>
+                <li><a href="https://www.w3schools.com/html/html5_semantic_elements.asp#:~:text=What%20are%20Semantic%20Elements%3F,%3E%20%2D%20Clearly%20defines%20its%20content.">w3schools</a></li>
+                <li><a href="https://www.freecodecamp.org/news/semantic-html5-elements/">freecodecamp</a></li>
+                <li><a href="https://www.geeksforgeeks.org/html5-semantics/">geeksforgeeks</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Contact information: abc@gmail.com</p>
+    </footer>
+</body>
+</html>
